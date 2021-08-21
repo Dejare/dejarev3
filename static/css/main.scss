@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap");
+$opaque-bg: rgba(42, 43, 56, 0.6);
+$text-linear-gradient: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+* {
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  background: #10121a;
+}
+
+// MAIN IS FOR THE HEADER AND NAVBARS 
+
+header {
+    background: $opaque-bg;
+    width: 70%;
+    height: 8vh;
+    margin: 2rem auto;
+    border-radius: 18px;
+    z-index: 5;
+    .logo {
+        float: left;
+        display: flex;
+        padding: 1rem;
+        z-index: 10;
+        span {
+            background:$text-linear-gradient;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+      }
+      .menu {
+        float: right;
+        padding: 1rem;
+        .fa-bars {
+            padding-left: 1rem;
+          }
+      }
+  }
+
+  nav {
+    z-index: 999;
+    background: #10121a;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    transition: .5s ease;
+    .fa-times{
+        font-size: 20px;
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        transition: 1s ease-out;
+      }
+    ul {
+        position: absolute;
+        top: 20%;
+        li {
+            padding: 1rem 0;
+            list-style: none;
+            margin-bottom: 2rem;
+            a {
+                text-decoration: none;
+                font-size: 1.3rem;
+                :hover {
+                    color: white;
+                    border-bottom: 2px solid white;
+                    border-width: 2px;
+                  }
+              }
+        }
+  }
+}
+.active {
+    animation: navAnimate 1s ease-in;
+    transform: translate(0);
+  }
+
+// HEADER DONE

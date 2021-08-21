@@ -1,0 +1,31 @@
+// NAVBAR ANIMATION
+@keyframes navAnimate {
+    from {
+      transform: translate(-100%);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+// HERO TEXT COLOR ANIMATION
+
+@keyframes heroText {
+  0% {
+    background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  50% {
+    background: -webkit-linear-gradient(60deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  100% {
+    background: -webkit-linear-gradient(120deg, crimson, #6c63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+}

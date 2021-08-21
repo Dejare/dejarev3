@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="herobg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.45433502"
+     inkscape:cx="441.30431"
+     inkscape:cy="841.88976"
+     inkscape:window-width="1280"
+     inkscape:window-height="737"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d45500;stroke-width:0.309971"
+       id="rect31"
+       width="215.595"
+       height="348.96707"
+       x="-0.70676583"
+       y="-3.6318097" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.594px;line-height:1.25;font-family:'Mongolian Baiti';-inkscape-font-specification:'Mongolian Baiti, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:2.81485"
+       x="114.88605"
+       y="323.42938"
+       id="text475"
+       transform="matrix(1.0655212,0.06964991,-0.04973123,0.93525705,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.594px;font-family:'Mongolian Baiti';-inkscape-font-specification:'Mongolian Baiti, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#aa4400;stroke-width:2.81485"
+         x="114.88605"
+         y="323.42938">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.594px;line-height:1.25;font-family:'Mongolian Baiti';-inkscape-font-specification:'Mongolian Baiti, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:2.81485"
+       x="138.74957"
+       y="198.90181"
+       id="text475-0"
+       transform="matrix(1.0655212,0.06964991,-0.04973123,0.93525705,0,0)"
+       inkscape:transform-center-x="-4.6588235"
+       inkscape:transform-center-y="85.605882"><tspan
+         sodipodi:role="line"
+         id="tspan473-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.594px;font-family:'Mongolian Baiti';-inkscape-font-specification:'Mongolian Baiti, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#aa4400;stroke-width:2.81485"
+         x="138.74957"
+         y="198.90181">X</tspan></text>
+  </g>
+</svg>

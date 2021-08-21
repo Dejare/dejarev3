@@ -1,0 +1,64 @@
+@-webkit-keyframes navAnimate {
+  from {
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes navAnimate {
+  from {
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes heroText {
+  0% {
+    background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  50% {
+    background: -webkit-linear-gradient(60deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  100% {
+    background: -webkit-linear-gradient(120deg, crimson, #6c63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+}
+
+@keyframes heroText {
+  0% {
+    background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  50% {
+    background: -webkit-linear-gradient(60deg, #6c63ff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  100% {
+    background: -webkit-linear-gradient(120deg, crimson, #6c63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=animations.css.map */
