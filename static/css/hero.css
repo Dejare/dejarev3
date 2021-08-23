@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   overscroll-behavior: contain;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Urbanist', sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
@@ -29,12 +29,13 @@ a {
 .hero .hero-text {
   position: absolute;
   top: 30%;
-  left: 5%;
+  left: 10%;
   letter-spacing: -0.1rem;
 }
 
 .hero .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  line-height: 1;
   font-weight: 800;
   width: 65%;
   word-break: break-word;
@@ -54,13 +55,14 @@ a {
 
 .hero a {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   opacity: 100%;
   border-bottom: 2px solid white;
   -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
   padding: 1rem 1.5rem;
-  letter-spacing: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 350px) {
@@ -78,15 +80,15 @@ a {
 
 .hero .heroright img {
   display: block;
-  width: 16rem;
+  width: 15rem;
   position: absolute;
   z-index: 99;
   right: 0;
-  bottom: -3%;
+  bottom: -5%;
 }
 
 .hero .heroleft img {
-  width: 13rem;
+  width: 8rem;
   display: block;
   position: absolute;
   left: 0rem;
@@ -96,7 +98,7 @@ a {
 
 .hero .socialicons {
   position: absolute;
-  left: 5%;
+  left: 10%;
   bottom: 18%;
 }
 

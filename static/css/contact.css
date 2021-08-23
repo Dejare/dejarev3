@@ -11,26 +11,34 @@
 }
 
 footer {
-  width: 100%;
+  width: 45%;
+  height: 10vh;
   text-align: center;
+  margin: 1rem auto;
 }
 
 footer .footerbg {
-  background: rgba(42, 43, 56, 0.6);
+  background: rgba(255, 255, 255, 0.102);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 1rem 0rem;
   height: 100%;
 }
 
 #contact .contactText h1 {
   font-size: 3rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
   background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #contact .contactText p {
-  padding: 0rem 2rem 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0rem 2rem 1rem 6rem;
 }
 
 #contact form {
@@ -44,9 +52,12 @@ footer .footerbg {
 }
 
 #contact form input {
-  margin: .3rem 3rem;
+  margin: .3rem 9rem;
   padding: 1rem 1.5rem;
-  background: rgba(42, 43, 56, 0.6);
+  background: rgba(255, 255, 255, 0.102);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
   border: none;
 }
 
@@ -63,7 +74,7 @@ footer .footerbg {
 #contact form button {
   background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
   padding: 1rem 1.5rem;
-  margin: 1rem 3rem;
+  margin: 1rem 9rem;
   border: none;
 }
 /*# sourceMappingURL=contact.css.map */

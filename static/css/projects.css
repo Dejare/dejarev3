@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
 .aboutshort {
   width: 60%;
+  font-size: 1.5rem;
   line-break: auto;
-  padding: 4rem;
+  font-weight: 300;
+  padding: 1rem 6rem 4rem 6rem;
 }
 
 @media (max-width: 900px) {
@@ -22,7 +36,7 @@
 }
 
 #projects h1 {
-  margin-left: 2rem;
+  margin-left: 6rem;
   font-size: 3rem;
   background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
   -webkit-background-clip: text;
@@ -32,8 +46,10 @@
 
 #projects p {
   margin-top: .8rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
   width: 80%;
+  font-size: 1.5rem;
+  font-weight: 300;
   padding: 2rem 0rem;
 }
 
@@ -57,16 +73,20 @@
 }
 
 #projects .projectContent .projectbg {
-  background: rgba(42, 43, 56, 0.6);
-  width: 75%;
-  height: 70vh;
+  background: rgba(255, 255, 255, 0.082);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(209, 213, 219, 0.281);
+  position: relative;
+  width: 65%;
+  height: 65vh;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 75px;
 }
 
 @media (max-width: 900px) {
   #projects .projectContent .projectbg {
-    background: rgba(42, 43, 56, 0.6);
+    background: rgba(255, 255, 255, 0.082);
     width: 75%;
     height: 70vh;
     margin: 0 auto;
@@ -89,12 +109,12 @@
 
 #projects .projectContent .projectbg .projectNumber {
   position: absolute;
-  right: -2%;
-  top: -3.8%;
+  right: -3%;
+  top: -6%;
 }
 
 #projects .projectContent .projectbg .projectNumber img {
-  width: 4.5rem;
+  width: 7rem;
 }
 
 #projects .projectContent .projectbg .projectImg {
@@ -111,8 +131,9 @@
 }
 
 #projects .projectContent .projectbg .projectImg img {
-  width: 15rem;
-  border-radius: 30px;
+  width: 18rem;
+  height: 22rem;
+  border-radius: 45px;
 }
 
 #projects .projectContent .projectbg .projectText {
@@ -164,7 +185,7 @@
 }
 
 #projects .projectContent .projectbg .projectSocialIcons img {
-  width: 2.5rem;
+  width: 2rem;
   margin: .5rem 0rem;
 }
 
@@ -176,6 +197,37 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  position: relative;
+}
+
+#projects .projectContent .projectbg .container .row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 5rem;
+}
+
+#projects .projectContent .projectbg .container .row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
 }
 
 @media (max-width: 900px) {
