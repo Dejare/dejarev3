@@ -28,9 +28,16 @@ a {
 
 .hero .hero-text {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 10%;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.07rem;
+}
+
+@media (max-width: 900px) {
+  .hero .hero-text {
+    left: 5%;
+    top: 30%;
+  }
 }
 
 .hero .hero-text h1 {
@@ -42,8 +49,15 @@ a {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 900px) {
+  .hero .hero-text h1 {
+    width: 50%;
+    word-break: break-word;
+  }
+}
+
 .hero .hero-text h1 span {
-  background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+  background: -webkit-linear-gradient(120deg, #569aab, crimson);
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,15 +79,16 @@ a {
   text-transform: uppercase;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 900px) {
   .hero a {
-    padding: 0rem 0rem;
+    padding: .5rem 1rem;
+    letter-spacing: normal;
   }
 }
 
 .hero a:hover {
   letter-spacing: 20px;
-  background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+  background: -webkit-linear-gradient(120deg, #569aab, crimson);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -99,7 +114,7 @@ a {
 .hero .socialicons {
   position: absolute;
   left: 10%;
-  bottom: 18%;
+  bottom: 10%;
 }
 
 @media (max-width: 350px) {
@@ -129,7 +144,7 @@ a {
 
 @media (max-width: 900px) {
   .hero .hero-text h1 {
-    width: 100%;
+    width: 75%;
     word-break: normal;
     font-size: 2rem;
     padding: 0rem 1rem;
@@ -148,7 +163,7 @@ a {
     position: absolute;
     left: 0rem;
     top: 0;
-    z-index: 3;
+    z-index: 60;
   }
   .hero .hero-text {
     top: 30%;
@@ -160,6 +175,45 @@ a {
     letter-spacing: 5px;
   }
   .hero .hero-text a :hover {
+    letter-spacing: 9px;
+    color: white;
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero .hero-text h1 {
+    width: 95%;
+    word-break: normal;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+  }
+  .heroright img {
+    display: block;
+    width: 11rem;
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    bottom: -3%;
+  }
+  .heroleft img {
+    width: 7rem;
+    display: block;
+    position: absolute;
+    left: 0rem;
+    top: 0;
+    z-index: 60;
+  }
+  .hero-text {
+    top: 30%;
+  }
+  .hero-text a {
+    position: absolute;
+    left: 5%;
+    font-size: 1rem;
+    letter-spacing: 5px;
+  }
+  .hero-text a :hover {
     letter-spacing: 9px;
     color: white;
     opacity: 100%;

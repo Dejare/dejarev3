@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 $opaque-bg: rgba(255, 255, 255, 0.109);
 
-$text-linear-gradient: -webkit-linear-gradient(120deg, crimson, #6c63ff);
+$text-linear-gradient: -webkit-linear-gradient(120deg, crimson, #569aab);
 * {
   overscroll-behavior: contain;
   margin: 0;
@@ -15,12 +15,16 @@ $text-linear-gradient: -webkit-linear-gradient(120deg, crimson, #6c63ff);
 .about {
   h1 {
     margin-left: 6rem;
+    margin-top: 2rem;
     font-size: 3rem;
     background: $text-linear-gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 100;
     margin-top: 2rem;
+    @media (max-width: 900px) {
+      margin-left: 3rem;
+    }
   }
   img {
     clip-path: circle();
@@ -29,14 +33,21 @@ $text-linear-gradient: -webkit-linear-gradient(120deg, crimson, #6c63ff);
     padding: 1rem;
     margin-left: 6rem;
     @media (max-width: 900px) {
-      width: 11.5rem;
+      width: 11rem;
+      margin-left: 3rem;
     }
   }
   p{
-    font-size: 1.5rem;
+    
     font-weight: 300;
-    padding: 2rem 6rem;
-    width: 100%;
+    padding: 3rem 6rem;
+    width: 70%;
     word-break: break-word;
+    @media (max-width: 900px) {
+      width: 100%;
+      font-size: 1rem;
+      padding: 2rem 3rem;
+      // margin: 0rem 3rem 0rem 3rem;
+    }
   }
 }

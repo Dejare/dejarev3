@@ -12,12 +12,19 @@
 
 .about h1 {
   margin-left: 6rem;
+  margin-top: 2rem;
   font-size: 3rem;
-  background: -webkit-linear-gradient(120deg, crimson, #6c63ff);
+  background: -webkit-linear-gradient(120deg, crimson, #569aab);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 100;
   margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .about h1 {
+    margin-left: 3rem;
+  }
 }
 
 .about img {
@@ -30,15 +37,23 @@
 
 @media (max-width: 900px) {
   .about img {
-    width: 11.5rem;
+    width: 11rem;
+    margin-left: 3rem;
   }
 }
 
 .about p {
-  font-size: 1.5rem;
   font-weight: 300;
-  padding: 2rem 6rem;
-  width: 100%;
+  padding: 3rem 6rem;
+  width: 70%;
   word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .about p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 2rem 3rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

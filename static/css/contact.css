@@ -17,6 +17,12 @@ footer {
   margin: 1rem auto;
 }
 
+@media (max-width: 900px) {
+  footer {
+    width: 80%;
+  }
+}
+
 footer .footerbg {
   background: rgba(255, 255, 255, 0.102);
   backdrop-filter: blur(15px) saturate(180%);
@@ -29,16 +35,28 @@ footer .footerbg {
 
 #contact .contactText h1 {
   font-size: 3rem;
-  margin-left: 6rem;
-  background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
+  margin: 1.5rem 0rem 1.5rem 6rem;
+  background: -webkit-linear-gradient(300deg, #569aab, #f50057);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 900px) {
+  #contact .contactText h1 {
+    margin-left: 3rem;
+  }
+}
+
 #contact .contactText p {
-  font-size: 1.5rem;
   font-weight: 300;
   padding: 0rem 2rem 1rem 6rem;
+}
+
+@media (max-width: 900px) {
+  #contact .contactText p {
+    font-size: 1rem;
+    padding: 0rem 2rem 1rem 3rem;
+  }
 }
 
 #contact form {
@@ -53,12 +71,18 @@ footer .footerbg {
 
 #contact form input {
   margin: .3rem 9rem;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   background: rgba(255, 255, 255, 0.102);
   backdrop-filter: blur(15px) saturate(180%);
   -webkit-backdrop-filter: blur(15px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.125);
   border: none;
+}
+
+@media (max-width: 900px) {
+  #contact form input {
+    margin: .3rem 3rem;
+  }
 }
 
 #contact form input:focus {
@@ -72,9 +96,23 @@ footer .footerbg {
 }
 
 #contact form button {
-  background: -webkit-linear-gradient(120deg, #6c63ff, crimson);
-  padding: 1rem 1.5rem;
-  margin: 1rem 9rem;
+  text-decoration: none;
+  font-size: 1rem;
+  background: none;
   border: none;
+  opacity: 100%;
+  border-bottom: 2px solid white;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
+  padding: .45rem 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1rem 9rem;
+}
+
+@media (max-width: 900px) {
+  #contact form button {
+    margin: .3rem 3rem;
+  }
 }
 /*# sourceMappingURL=contact.css.map */
