@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 $opaque-bg: rgba(255, 255, 255, 0.100);
 $text-linear-gradient: -webkit-linear-gradient( #569aab, #f50057);
 * {
@@ -6,7 +6,7 @@ $text-linear-gradient: -webkit-linear-gradient( #569aab, #f50057);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
