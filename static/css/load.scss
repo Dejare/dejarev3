@@ -7,20 +7,6 @@
     width: 100vw;
     height: 100vh;
     z-index: 99999;
-    /* display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    color: #df2020;
-    animation-name: animationBlobColor;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-    z-index: 99999;
-    background: #10101a; */
   }
 
   .loadImg img{
@@ -32,89 +18,8 @@
     transform: translate(-50%, -50%);
     animation: loader;
     animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 4;
     @media (max-width: 900px) {
       width: 15rem;
     }
   }
-/*   
-  .blob {
-    display: block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-    background-color: currentColor;
-    border-top-left-radius: 0%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    color: white;
-    border-bottom-left-radius: 50%;
-    animation-name: animationBlobCorners;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    overflow: hidden;
-    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
-  }
-  .blob:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: top;
-    transform: translate(-50%, 0%) rotate(-45deg);
-    width: 50%;
-    height: 100%;
-    background: -webkit-linear-gradient(145deg, #6c63ff, crimson);
-  }
-  .blob:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-    background-color: #6b63ffc5;
-    border-radius: 50%;
-  }
-  
-  @keyframes animationBlobColor {
-    from {
-      color: #66cc33;
-    }
-    to {
-      color: #66cc33;
-    }
-  }
-  @keyframes animationBlobCorners {
-    from, to {
-      border-top-left-radius: 0%;
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 50%;
-      border-bottom-left-radius: 50%;
-    }
-    25% {
-      border-top-left-radius: 50%;
-      border-top-right-radius: 0%;
-      border-bottom-right-radius: 50%;
-      border-bottom-left-radius: 50%;
-    }
-    50% {
-      border-top-left-radius: 50%;
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 0%;
-      border-bottom-left-radius: 50%;
-    }
-    75% {
-      border-top-left-radius: 50%;
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 50%;
-      border-bottom-left-radius: 0%;
-    }
-  } */
