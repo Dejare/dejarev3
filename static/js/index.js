@@ -1,4 +1,4 @@
-const openNav = document.querySelector(".fa-bars")
+const openNav = document.querySelector(".open")
 const navBar = document.querySelector("nav")
 
 document.querySelector("nav").style.display = "none";

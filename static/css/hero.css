@@ -4,7 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Circular Std Book', sans-serif;
+  font-family: 'Poppins', 'Lato', sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
@@ -40,12 +40,14 @@ a {
 }
 
 .hero .hero-text h1 {
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   font-size: 5rem;
+  font-stretch: ultra-expanded;
   line-height: 100%;
   width: 65%;
   word-break: break-word;
   margin-bottom: 3rem;
+  font-stretch: ultra-expanded;
 }
 
 @media (max-width: 900px) {

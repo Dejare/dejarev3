@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Circular Std Book";
-  src: url("../js/CircularStd-Book.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,200&display=swap');
 $opaque-bg: rgba(255, 255, 255, 0.102);
 $text-linear-gradient: -webkit-linear-gradient(120deg, #569aab, crimson);
 * {
@@ -12,7 +6,7 @@ $text-linear-gradient: -webkit-linear-gradient(120deg, #569aab, crimson);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Circular Std Book', sans-serif;
+  font-family: 'Poppins' 'Lato', sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
@@ -88,15 +82,39 @@ header {
       .menu {
         float: right;
         position: absolute;
+        display: flex;
+        flex-direction: row;
         right: 5%;
         top: 50%;
         transform: translate(-5%, -50%);
         margin-right: 1rem;
-        span{
-            background: white;
-            width: 10px;
-            height: 2px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 1rem;
+        h3, img{
+          cursor: pointer;
+        }
+        h3{
+          margin-left: .3rem;
+        }:hover{
+          transform: scale(0.7);
+        }
+        @media (max-width: 900px) {
+          menu{
+            position: absolute;
+        display: flex;
+        flex-direction: row;
+        right: 0%;
+        top: 50%;
+        transform: translate(-0%, -50%);
+            padding-right: 0rem;
+            right: 0%;
           }
+          img{
+            width: 2rem;
+          }
+        }
       }
   }
 
