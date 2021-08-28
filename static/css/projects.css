@@ -102,7 +102,7 @@
   #projects .projectContent .projectbg {
     background: rgba(255, 255, 255, 0.1);
     width: 75%;
-    height: 70vh;
+    height: 80vh;
     margin: 2rem auto;
     border-radius: 30px;
     position: relative;
@@ -111,13 +111,13 @@
 
 @media (max-width: 350px) {
   #projects .projectContent .projectbg {
-    height: 85vh;
+    height: 95vh;
   }
 }
 
 @media (width: 375px) {
   #projects .projectContent .projectbg {
-    height: 65vh;
+    height: 75vh;
   }
 }
 
@@ -153,8 +153,8 @@
 @media (max-width: 900px) {
   #projects .projectContent .projectbg .projectImg img {
     border-radius: 25px;
-    width: 20rem;
-    height: 25vh;
+    width: 15rem;
+    height: 30vh;
   }
 }
 
